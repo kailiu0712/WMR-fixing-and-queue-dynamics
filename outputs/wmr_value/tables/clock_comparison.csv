@@ -1,0 +1,256 @@
+clock,section,item,est,lo,hi,p
+time,level,wmr fill rate,0.13026128785394117,,,
+time,level,wmr fills,4766.0,,,
+time,level,wmr spread_capture_mean,0.5040914813261073,,,
+time,level,wmr move5_mean,-0.43757868233331043,,,
+time,level,wmr mk5_mean,0.06651279899279686,,,
+time,level,wmr mk5_neg_share,0.43537557700377677,,,
+time,level,wmr Z5_mean,0.008664042855572039,,,
+time,level,wmr fill_time_median,0.6499920260000001,,,
+time,level,"wmr label horizon, median wall s",5.0,,,
+time,level,"wmr markout horizon, median wall s",5.0,,,
+time,level,nearby fill rate,0.09522936620686495,,,
+time,level,nearby fills,6234.0,,,
+time,level,nearby spread_capture_mean,0.5123516201475747,,,
+time,level,nearby move5_mean,-0.5138755213345951,,,
+time,level,nearby mk5_mean,-0.0015239011870203081,,,
+time,level,nearby mk5_neg_share,0.47770291947385307,,,
+time,level,nearby Z5_mean,-0.0001451201442018331,,,
+time,level,nearby fill_time_median,0.8273607335,,,
+time,level,"nearby label horizon, median wall s",5.0,,,
+time,level,"nearby markout horizon, median wall s",5.0,,,
+time,level,normal fill rate,0.06558232327178008,,,
+time,level,normal fills,172089.0,,,
+time,level,normal spread_capture_mean,0.5126010378350593,,,
+time,level,normal move5_mean,-0.5478124691293459,,,
+time,level,normal mk5_mean,-0.03521143129428663,,,
+time,level,normal mk5_neg_share,0.4758816658821889,,,
+time,level,normal Z5_mean,-0.0023092474700039793,,,
+time,level,normal fill_time_median,0.764611576,,,
+time,level,"normal label horizon, median wall s",5.0,,,
+time,level,"normal markout horizon, median wall s",5.0,,,
+time,A1 day-paired WMR - control,fill_rate vs normal,0.0641668701251129,0.0541925243276877,0.07507767046520541,4.999750012499375e-05
+time,A1 day-paired WMR - control,fill_rate vs nearby,0.035555118315940284,0.0275176752161661,0.04392807207743549,4.999750012499375e-05
+time,A1 day-paired WMR - control,spread_capture_given_fill vs normal,-0.007861922404498832,-0.010092194450089905,-0.005543592390156819,4.999750012499375e-05
+time,A1 day-paired WMR - control,spread_capture_given_fill vs nearby,-0.006694548277041519,-0.01109520847627237,-0.0026213403369487113,0.00199990000499975
+time,A1 day-paired WMR - control,move_5s_given_fill vs normal,0.10633704041439485,0.08097324328600831,0.13115809014919555,4.999750012499375e-05
+time,A1 day-paired WMR - control,move_5s_given_fill vs nearby,0.0852241125050305,0.05170383606810703,0.11684098910088779,4.999750012499375e-05
+time,A1 day-paired WMR - control,markout_5s_given_fill vs normal,0.09847511800989599,0.07290852620171812,0.12353564100054322,4.999750012499375e-05
+time,A1 day-paired WMR - control,markout_5s_given_fill vs nearby,0.078529564227989,0.04497366331957648,0.11111315904498181,4.999750012499375e-05
+time,A1 day-paired WMR - control,neg_markout_5s_share_of_fills vs normal,-0.0368742505707826,-0.057281383855465606,-0.01730900562909597,0.0004999750012499375
+time,A1 day-paired WMR - control,neg_markout_5s_share_of_fills vs nearby,-0.044499987199381,-0.06825226883861785,-0.02101825697282809,0.00044997750112494374
+time,A1 day-paired WMR - control,Z_5s_per_opportunity vs normal,0.01084105712860816,0.007834153531533149,0.013784170652569334,4.999750012499375e-05
+time,A1 day-paired WMR - control,Z_5s_per_opportunity vs nearby,0.008838234971329377,0.005059001325119136,0.012568887989159656,4.999750012499375e-05
+time,A1 day-paired WMR - control,markout_30s_given_fill vs normal,0.09205895666962216,0.03622700036541456,0.14810822820776057,0.002599870006499675
+time,A1 day-paired WMR - control,markout_30s_given_fill vs nearby,0.09148438670817764,0.006387351703310237,0.17875344733377682,0.0471976401179941
+time,A2 matched WMR - control,queue x imbalance x flow x spread x side | fill_rate vs normal (cov 0.99),0.06490333706635089,0.055757508109811366,0.07472038078359837,4.999750012499375e-05
+time,A2 matched WMR - control,queue x imbalance x flow x spread x side | fill_rate vs nearby (cov 0.94),0.03920620906840152,0.030885765355023378,0.04742332402726892,4.999750012499375e-05
+time,A2 matched WMR - control,queue x imbalance x flow x spread x side | markout_5s_given_fill vs normal (cov 0.94),0.10582205060017962,0.07872391674542119,0.13214528693284164,4.999750012499375e-05
+time,A2 matched WMR - control,queue x imbalance x flow x spread x side | markout_5s_given_fill vs nearby (cov 0.34),0.05769486183373573,-0.013150249231719638,0.12533628472585479,0.12869356532173393
+time,A2 matched WMR - control,queue x imbalance x flow x spread x side | Z_5s_per_opportunity vs normal (cov 0.99),0.011081702330447547,0.007881594836836862,0.014203644639784997,4.999750012499375e-05
+time,A2 matched WMR - control,queue x imbalance x flow x spread x side | Z_5s_per_opportunity vs nearby (cov 0.94),0.0103822179119205,0.0047545231149425955,0.015641547322257268,0.0005499725013749313
+time,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | fill_rate vs normal (cov 1.00),0.02819718323999501,0.019253976553104957,0.03750923136936697,4.999750012499375e-05
+time,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | fill_rate vs nearby (cov 1.00),0.015484623973670399,0.008303707837396283,0.022895323688848807,0.00024998750062496874
+time,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | markout_5s_given_fill vs normal (cov 1.00),0.09234172484486174,0.06170851541093263,0.12302356578765976,4.999750012499375e-05
+time,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | markout_5s_given_fill vs nearby (cov 0.90),0.06955967177611506,0.016781664340517505,0.12126605619875158,0.011899405029748513
+time,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | Z_5s_per_opportunity vs normal (cov 1.00),0.011732625028588883,0.007884378882033343,0.01537441599917127,4.999750012499375e-05
+time,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | Z_5s_per_opportunity vs nearby (cov 1.00),0.011005345499393266,0.0056074812310416685,0.016338703986576365,0.0002999850007499625
+time,B fill model,wmr M0 realized - predicted fill,0.0329876777622649,,,
+time,B fill model,wmr M0 AUC,0.819810355006933,,,
+time,B fill model,wmr M1 realized - predicted fill,0.0056762200961402165,,,
+time,B fill model,wmr M1 AUC,0.8183635594068854,,,
+time,B fill model,normal M0 realized - predicted fill,0.009322320871772732,,,
+time,B fill model,normal M0 AUC,0.7825265714749873,,,
+time,B fill model,normal M1 realized - predicted fill,0.010036230887074754,,,
+time,B fill model,normal M1 AUC,0.7824640304765476,,,
+time,B fill model,wmr Brier M0 - M1 (test days),0.0017556517333353857,0.000556508100345211,0.003001180805123748,0.017399130043497826
+time,B markout model,"wmr R0 corr(pred, realized)",0.02817998177052282,,,
+time,B markout model,"normal R0 corr(pred, realized)",0.059046290117004664,,,
+time,R1 WMR-only vs pooled M1 (walk-forward),brier_M1_minus_m,-5.695414267940308e-05,-0.0005708589139737287,0.000415411442568976,0.8354082295885206
+time,R1 WMR-only vs pooled M1 (walk-forward),corr5_m_minus_R1,-0.003470040750982495,-0.04477011809704887,0.039779235116928026,0.8676566171691416
+time,R2 equal size,auc M0 test_days: WMR 0.820 vs normal median 0.782,1.0,,,
+time,R2 equal size,mk_corr M0 test_days: WMR 0.028 vs normal median 0.067,0.156,,,
+time,R2 equal size,decile_spearman M0 test_days: WMR 0.467 vs normal median 0.636,0.266,,,
+time,R2 equal size,auc M1 test_days: WMR 0.818 vs normal median 0.782,1.0,,,
+time,R2 equal size,mk_corr M1 test_days: WMR 0.004 vs normal median 0.067,0.042,,,
+time,R2 equal size,decile_spearman M1 test_days: WMR -0.248 vs normal median 0.636,0.004,,,
+time,R2 equal size,auc M0 walk_forward: WMR 0.799 vs normal median 0.812,0.018,,,
+time,R2 equal size,mk_corr M0 walk_forward: WMR 0.033 vs normal median 0.064,0.128,,,
+time,R2 equal size,decile_spearman M0 walk_forward: WMR 0.418 vs normal median 0.800,0.03,,,
+time,R2 equal size,auc M1 walk_forward: WMR 0.797 vs normal median 0.812,0.006,,,
+time,R2 equal size,mk_corr M1 walk_forward: WMR 0.011 vs normal median 0.064,0.016,,,
+time,R2 equal size,decile_spearman M1 walk_forward: WMR 0.212 vs normal median 0.806,0.0,,,
+time,"C policy (top 20%, within-period budget)",wmr P3_joint - P0_all,0.03829985287016852,0.017052454651886057,0.06014816337809682,0.006949652517374131
+time,"C policy (top 20%, within-period budget)",wmr P3_joint - P1_fill,-0.0024718297230640245,-0.014387292085747348,0.009425925623021731,0.7004149792510375
+time,"C policy (top 20%, within-period budget)",normal P3_joint - P0_all,0.0072581894803649,0.005078560705521713,0.009458906976218474,0.00039998000099995
+time,"C policy (top 20%, within-period budget)",normal P3_joint - P1_fill,0.0036357459140796246,0.0011888195022743066,0.005652228786847877,0.010749462526873657
+volume,level,wmr fill rate,0.10547173936809882,,,
+volume,level,wmr fills,3859.0,,,
+volume,level,wmr spread_capture_mean,0.5009069707178562,,,
+volume,level,wmr move5_mean,-0.4694221300856056,,,
+volume,level,wmr mk5_mean,0.03148484063225045,,,
+volume,level,wmr mk5_neg_share,0.458927183208085,,,
+volume,level,wmr Z5_mean,0.003320760905210848,,,
+volume,level,wmr fill_time_median,0.419935644,,,
+volume,level,"wmr label horizon, median wall s",2.150195058,,,
+volume,level,"wmr markout horizon, median wall s",1.315893792,,,
+volume,level,nearby fill rate,0.09642087896979973,,,
+volume,level,nearby fills,6312.0,,,
+volume,level,nearby spread_capture_mean,0.5046736375158586,,,
+volume,level,nearby move5_mean,-0.5587769328263484,,,
+volume,level,nearby mk5_mean,-0.05410329531048994,,,
+volume,level,nearby mk5_neg_share,0.5259822560202788,,,
+volume,level,nearby Z5_mean,-0.0052166872890000845,,,
+volume,level,nearby fill_time_median,0.996432496,,,
+volume,level,"nearby label horizon, median wall s",4.083603527,,,
+volume,level,"nearby markout horizon, median wall s",2.763015768,,,
+volume,level,normal fill rate,0.08457916589653641,,,
+volume,level,normal fills,221937.0,,,
+volume,level,normal spread_capture_mean,0.5086150574261954,,,
+volume,level,normal move5_mean,-0.5677286797604728,,,
+volume,level,normal mk5_mean,-0.05911362233427736,,,
+volume,level,normal mk5_neg_share,0.5277578772354317,,,
+volume,level,normal Z5_mean,-0.004999780870156045,,,
+volume,level,normal fill_time_median,1.811052203,,,
+volume,level,"normal label horizon, median wall s",9.072425626,,,
+volume,level,"normal markout horizon, median wall s",6.496255742,,,
+volume,A1 day-paired WMR - control,fill_rate vs normal,0.020356004325345435,0.013536275002040308,0.027528336727486512,4.999750012499375e-05
+volume,A1 day-paired WMR - control,fill_rate vs nearby,0.008925020354284371,0.0030873647006416445,0.014959771678151764,0.0032998350082495873
+volume,A1 day-paired WMR - control,spread_capture_given_fill vs normal,-0.007465447314479214,-0.008795818305235866,-0.005950565899895454,4.999750012499375e-05
+volume,A1 day-paired WMR - control,spread_capture_given_fill vs nearby,-0.0035685216851752714,-0.005857127773481668,-0.0014641148875696522,0.001399930003499825
+volume,A1 day-paired WMR - control,move_5s_given_fill vs normal,0.09300206920306647,0.07136898943923783,0.11420524083326555,4.999750012499375e-05
+volume,A1 day-paired WMR - control,move_5s_given_fill vs nearby,0.090375663544279,0.055716423864030626,0.12460198703601165,4.999750012499375e-05
+volume,A1 day-paired WMR - control,markout_5s_given_fill vs normal,0.08553662188858724,0.06393653899442588,0.10673336552427233,4.999750012499375e-05
+volume,A1 day-paired WMR - control,markout_5s_given_fill vs nearby,0.0868071418591037,0.051166776738647,0.12223224554063146,4.999750012499375e-05
+volume,A1 day-paired WMR - control,neg_markout_5s_share_of_fills vs normal,-0.06418001575270386,-0.08262966523768955,-0.045567163656397895,4.999750012499375e-05
+volume,A1 day-paired WMR - control,neg_markout_5s_share_of_fills vs nearby,-0.0662281955857886,-0.09397833440681481,-0.038349436516232786,4.999750012499375e-05
+volume,A1 day-paired WMR - control,Z_5s_per_opportunity vs normal,0.008216219595364328,0.006106032540055363,0.010389257270311791,4.999750012499375e-05
+volume,A1 day-paired WMR - control,Z_5s_per_opportunity vs nearby,0.008603286704319188,0.005632251500977885,0.011613866355047213,4.999750012499375e-05
+volume,A1 day-paired WMR - control,markout_30s_given_fill vs normal,0.07004756947592283,0.030849896582250777,0.10667973165153123,0.0004999750012499375
+volume,A1 day-paired WMR - control,markout_30s_given_fill vs nearby,0.060494564129196154,-0.013579685478669433,0.12979116964948997,0.10054497275136243
+volume,A2 matched WMR - control,queue x imbalance x flow x spread x side | fill_rate vs normal (cov 0.99),0.025183359187870822,0.01963370580606673,0.030999026756416977,4.999750012499375e-05
+volume,A2 matched WMR - control,queue x imbalance x flow x spread x side | fill_rate vs nearby (cov 0.94),0.013858277838967556,0.008151425027707587,0.019778809337353542,0.00014999250037498125
+volume,A2 matched WMR - control,queue x imbalance x flow x spread x side | markout_5s_given_fill vs normal (cov 0.95),0.0774230858655646,0.056155624726995625,0.09868529026575963,4.999750012499375e-05
+volume,A2 matched WMR - control,queue x imbalance x flow x spread x side | markout_5s_given_fill vs nearby (cov 0.39),0.06485858190735502,0.003414661831587172,0.12654741473154382,0.03944802759862007
+volume,A2 matched WMR - control,queue x imbalance x flow x spread x side | Z_5s_per_opportunity vs normal (cov 0.99),0.008477215709131666,0.006301949072225281,0.010743040407554555,4.999750012499375e-05
+volume,A2 matched WMR - control,queue x imbalance x flow x spread x side | Z_5s_per_opportunity vs nearby (cov 0.94),0.008440781046841015,0.0048475965706612795,0.012233538250292471,9.99950002499875e-05
+volume,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | fill_rate vs normal (cov 1.00),0.004492559849560516,-0.0019758797987194992,0.011066982449197665,0.19799010049497526
+volume,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | fill_rate vs nearby (cov 1.00),-0.0028643920431809388,-0.009264474778257595,0.0032538872040129858,0.39093045347732613
+volume,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | markout_5s_given_fill vs normal (cov 1.00),0.06790374360374,0.04104237041895971,0.09398048073938532,4.999750012499375e-05
+volume,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | markout_5s_given_fill vs nearby (cov 0.90),0.07423226700841683,0.027790028291880882,0.11832758675507031,0.0021498925053747312
+volume,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | Z_5s_per_opportunity vs normal (cov 1.00),0.009160660394353298,0.006355466869550516,0.012023667842414664,4.999750012499375e-05
+volume,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | Z_5s_per_opportunity vs nearby (cov 1.00),0.009764279875714422,0.005752929689855832,0.013814449785783058,4.999750012499375e-05
+volume,B fill model,wmr M0 realized - predicted fill,0.018891182341979965,,,
+volume,B fill model,wmr M0 AUC,0.8550758152587323,,,
+volume,B fill model,wmr M1 realized - predicted fill,0.010476689083692953,,,
+volume,B fill model,wmr M1 AUC,0.8571106924775167,,,
+volume,B fill model,normal M0 realized - predicted fill,0.008816905588323001,,,
+volume,B fill model,normal M0 AUC,0.7659359364580095,,,
+volume,B fill model,normal M1 realized - predicted fill,0.008951806478299962,,,
+volume,B fill model,normal M1 AUC,0.7660536636574261,,,
+volume,B fill model,wmr Brier M0 - M1 (test days),0.0025000146137547133,0.0008457971812620137,0.004294880754708547,0.018899055047247638
+volume,B markout model,"wmr R0 corr(pred, realized)",0.09837809450258264,,,
+volume,B markout model,"normal R0 corr(pred, realized)",0.10084873222518903,,,
+volume,R1 WMR-only vs pooled M1 (walk-forward),brier_M1_minus_m,0.000342185567504266,-3.560882829167861e-05,0.0007167300833256123,0.08044597770111495
+volume,R1 WMR-only vs pooled M1 (walk-forward),corr5_m_minus_R1,0.013170326619748273,-0.020652138501531473,0.04823569225629902,0.4534773261336933
+volume,R2 equal size,auc M0 test_days: WMR 0.855 vs normal median 0.765,1.0,,,
+volume,R2 equal size,mk_corr M0 test_days: WMR 0.098 vs normal median 0.101,0.464,,,
+volume,R2 equal size,decile_spearman M0 test_days: WMR 0.661 vs normal median 0.727,0.372,,,
+volume,R2 equal size,auc M1 test_days: WMR 0.857 vs normal median 0.766,1.0,,,
+volume,R2 equal size,mk_corr M1 test_days: WMR 0.135 vs normal median 0.101,0.856,,,
+volume,R2 equal size,decile_spearman M1 test_days: WMR 0.564 vs normal median 0.721,0.232,,,
+volume,R2 equal size,auc M0 walk_forward: WMR 0.839 vs normal median 0.780,1.0,,,
+volume,R2 equal size,mk_corr M0 walk_forward: WMR 0.116 vs normal median 0.096,0.836,,,
+volume,R2 equal size,decile_spearman M0 walk_forward: WMR 0.818 vs normal median 0.855,0.342,,,
+volume,R2 equal size,auc M1 walk_forward: WMR 0.842 vs normal median 0.780,1.0,,,
+volume,R2 equal size,mk_corr M1 walk_forward: WMR 0.125 vs normal median 0.096,0.922,,,
+volume,R2 equal size,decile_spearman M1 walk_forward: WMR 0.818 vs normal median 0.855,0.344,,,
+volume,"C policy (top 20%, within-period budget)",wmr P3_joint - P0_all,0.014533320145754085,0.00644250723906099,0.022237472574764494,0.007549622518874056
+volume,"C policy (top 20%, within-period budget)",wmr P3_joint - P1_fill,-0.009055776984462303,-0.018827317089527496,0.0011180941188447748,0.10929453527323633
+volume,"C policy (top 20%, within-period budget)",normal P3_joint - P0_all,0.010611767936360787,0.00875622052696882,0.01288023687210425,0.00039998000099995
+volume,"C policy (top 20%, within-period budget)",normal P3_joint - P1_fill,0.010514719613073589,0.008379392455949297,0.012507702461896713,0.00039998000099995
+event,level,wmr fill rate,0.11074669290477752,,,
+event,level,wmr fills,4052.0,,,
+event,level,wmr spread_capture_mean,0.501974333662441,,,
+event,level,wmr move5_mean,-0.4681638696940588,,,
+event,level,wmr mk5_mean,0.03381046396838228,,,
+event,level,wmr mk5_neg_share,0.4506416584402764,,,
+event,level,wmr Z5_mean,0.0037443970700744783,,,
+event,level,wmr fill_time_median,0.390973871,,,
+event,level,"wmr label horizon, median wall s",2.138453555,,,
+event,level,"wmr markout horizon, median wall s",1.4112528975,,,
+event,level,nearby fill rate,0.08672074301513832,,,
+event,level,nearby fills,5677.0,,,
+event,level,nearby spread_capture_mean,0.5053725559274158,,,
+event,level,nearby move5_mean,-0.5341729786858932,,,
+event,level,nearby mk5_mean,-0.02880042275847746,,,
+event,level,nearby mk5_neg_share,0.5046679584287476,,,
+event,level,nearby Z5_mean,-0.0024975940607652645,,,
+event,level,nearby fill_time_median,0.669961555,,,
+event,level,"nearby label horizon, median wall s",2.885727804,,,
+event,level,"nearby markout horizon, median wall s",1.844116364,,,
+event,level,normal fill rate,0.07249196365112243,,,
+event,level,normal fills,190220.0,,,
+event,level,normal spread_capture_mean,0.5074781831563324,,,
+event,level,normal move5_mean,-0.5529097886657494,,,
+event,level,normal mk5_mean,-0.04543160550941699,,,
+event,level,normal mk5_neg_share,0.5115182420355378,,,
+event,level,normal Z5_mean,-0.00329342629520079,,,
+event,level,normal fill_time_median,1.050674425,,,
+event,level,"normal label horizon, median wall s",5.179719629,,,
+event,level,"normal markout horizon, median wall s",3.374229948,,,
+event,A1 day-paired WMR - control,fill_rate vs normal,0.037630735033417906,0.02975224625407276,0.04615674422259492,4.999750012499375e-05
+event,A1 day-paired WMR - control,fill_rate vs nearby,0.02401684197842601,0.01707918487554731,0.03122537965636523,4.999750012499375e-05
+event,A1 day-paired WMR - control,spread_capture_given_fill vs normal,-0.005455875227053899,-0.006867372374676376,-0.003941354316814433,4.999750012499375e-05
+event,A1 day-paired WMR - control,spread_capture_given_fill vs nearby,-0.0031708552853352465,-0.006383724874199511,-0.00032159099651875224,0.031248437578121093
+event,A1 day-paired WMR - control,move_5s_given_fill vs normal,0.08115369287163153,0.05617539636366316,0.10544410803278789,4.999750012499375e-05
+event,A1 day-paired WMR - control,move_5s_given_fill vs nearby,0.07183169426226274,0.040012948949012715,0.10429834279582968,0.00014999250037498125
+event,A1 day-paired WMR - control,markout_5s_given_fill vs normal,0.07569781764457764,0.051129242625241295,0.09976447297194471,4.999750012499375e-05
+event,A1 day-paired WMR - control,markout_5s_given_fill vs nearby,0.06866083897692751,0.0363276513215821,0.10186682367895314,0.00014999250037498125
+event,A1 day-paired WMR - control,neg_markout_5s_share_of_fills vs normal,-0.05657528848227085,-0.07982843638347381,-0.03271744619540295,9.99950002499875e-05
+event,A1 day-paired WMR - control,neg_markout_5s_share_of_fills vs nearby,-0.05582468325054262,-0.08508687672909271,-0.026288537147895776,0.00039998000099995
+event,A1 day-paired WMR - control,Z_5s_per_opportunity vs normal,0.006963148714644188,0.004418294819028791,0.009447686195602524,4.999750012499375e-05
+event,A1 day-paired WMR - control,Z_5s_per_opportunity vs nearby,0.006297563092756867,0.003440681812867072,0.00922785748642951,0.00014999250037498125
+event,A1 day-paired WMR - control,markout_30s_given_fill vs normal,0.08109424255313502,0.039098948196722626,0.12142379096589524,0.0004999750012499375
+event,A1 day-paired WMR - control,markout_30s_given_fill vs nearby,0.06668374411352382,-0.0061965426861301225,0.13597078967307777,0.06349682515874207
+event,A2 matched WMR - control,queue x imbalance x flow x spread x side | fill_rate vs normal (cov 0.99),0.04065121474944788,0.03365266630342176,0.04813261198307797,4.999750012499375e-05
+event,A2 matched WMR - control,queue x imbalance x flow x spread x side | fill_rate vs nearby (cov 0.94),0.02846974257629424,0.02112161870825755,0.035941003298956345,4.999750012499375e-05
+event,A2 matched WMR - control,queue x imbalance x flow x spread x side | markout_5s_given_fill vs normal (cov 0.94),0.078855558003343,0.055673238312431726,0.10173411108440737,4.999750012499375e-05
+event,A2 matched WMR - control,queue x imbalance x flow x spread x side | markout_5s_given_fill vs nearby (cov 0.33),0.0751833464489086,0.02011200484068651,0.12910902756998738,0.012049397530123494
+event,A2 matched WMR - control,queue x imbalance x flow x spread x side | Z_5s_per_opportunity vs normal (cov 0.99),0.00690102753210466,0.004424696722977988,0.009335127072692524,4.999750012499375e-05
+event,A2 matched WMR - control,queue x imbalance x flow x spread x side | Z_5s_per_opportunity vs nearby (cov 0.94),0.006070429293340828,0.0029695804096088884,0.009259673464533803,0.0004999750012499375
+event,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | fill_rate vs normal (cov 1.00),0.016398814087210466,0.008454455627758336,0.0246944189796256,0.00024998750062496874
+event,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | fill_rate vs nearby (cov 1.00),0.008587623200133817,0.0013904519931146238,0.015874772563344474,0.02984850757462127
+event,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | markout_5s_given_fill vs normal (cov 1.00),0.06177770653052556,0.031520898526469714,0.09080240982738058,0.00034998250087495624
+event,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | markout_5s_given_fill vs nearby (cov 0.87),0.055067470245685625,0.015473543458392327,0.09284975037678822,0.008049597520123995
+event,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | Z_5s_per_opportunity vs normal (cov 1.00),0.0071911927896555206,0.004009215179498435,0.010220318113021374,0.00014999250037498125
+event,A2 matched WMR - control,walk-forward M0 fill-probability decile x side | Z_5s_per_opportunity vs nearby (cov 1.00),0.0063933267592841715,0.0018996136933276987,0.010738615017328847,0.005949702514874256
+event,B fill model,wmr M0 realized - predicted fill,0.019112471603538933,,,
+event,B fill model,wmr M0 AUC,0.8558235278165145,,,
+event,B fill model,wmr M1 realized - predicted fill,0.0032704166516184935,,,
+event,B fill model,wmr M1 AUC,0.8550640042077277,,,
+event,B fill model,normal M0 realized - predicted fill,0.006728794251165057,,,
+event,B fill model,normal M0 AUC,0.7741202070166618,,,
+event,B fill model,normal M1 realized - predicted fill,0.007144937294263534,,,
+event,B fill model,normal M1 AUC,0.7741567624704325,,,
+event,B fill model,wmr Brier M0 - M1 (test days),0.002116891234608335,0.0008575603567476049,0.003407981972168037,0.011649417529123544
+event,B markout model,"wmr R0 corr(pred, realized)",0.07500488017873361,,,
+event,B markout model,"normal R0 corr(pred, realized)",0.1151017301743338,,,
+event,R1 WMR-only vs pooled M1 (walk-forward),brier_M1_minus_m,5.434948941058637e-05,-0.00031090042412458384,0.00039729191334760987,0.7715614219289035
+event,R1 WMR-only vs pooled M1 (walk-forward),corr5_m_minus_R1,0.0037254382738117096,-0.027827090611020237,0.03339143333379351,0.8172591370431478
+event,R2 equal size,auc M0 test_days: WMR 0.856 vs normal median 0.774,1.0,,,
+event,R2 equal size,mk_corr M0 test_days: WMR 0.075 vs normal median 0.112,0.102,,,
+event,R2 equal size,decile_spearman M0 test_days: WMR 0.758 vs normal median 0.794,0.392,,,
+event,R2 equal size,auc M1 test_days: WMR 0.855 vs normal median 0.774,1.0,,,
+event,R2 equal size,mk_corr M1 test_days: WMR 0.095 vs normal median 0.109,0.322,,,
+event,R2 equal size,decile_spearman M1 test_days: WMR 0.673 vs normal median 0.770,0.224,,,
+event,R2 equal size,auc M0 walk_forward: WMR 0.826 vs normal median 0.795,1.0,,,
+event,R2 equal size,mk_corr M0 walk_forward: WMR 0.089 vs normal median 0.094,0.384,,,
+event,R2 equal size,decile_spearman M0 walk_forward: WMR 0.952 vs normal median 0.867,0.866,,,
+event,R2 equal size,auc M1 walk_forward: WMR 0.825 vs normal median 0.795,1.0,,,
+event,R2 equal size,mk_corr M1 walk_forward: WMR 0.094 vs normal median 0.094,0.492,,,
+event,R2 equal size,decile_spearman M1 walk_forward: WMR 0.636 vs normal median 0.867,0.018,,,
+event,"C policy (top 20%, within-period budget)",wmr P3_joint - P0_all,0.017377581336914652,0.006562104978672471,0.02775193332954188,0.010449477526123694
+event,"C policy (top 20%, within-period budget)",wmr P3_joint - P1_fill,-0.01390600502814435,-0.021832760569386177,-0.005808192812420221,0.00999950002499875
+event,"C policy (top 20%, within-period budget)",normal P3_joint - P0_all,0.00945127933167985,0.006979115703032789,0.01206274492788999,0.00039998000099995
+event,"C policy (top 20%, within-period budget)",normal P3_joint - P1_fill,0.008578580238961988,0.006658438423543411,0.010511151934044382,0.00039998000099995

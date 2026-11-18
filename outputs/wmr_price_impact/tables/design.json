@@ -1,0 +1,45 @@
+{
+ "features": [
+  "log_size",
+  "log_depth_consumed",
+  "log_depth_opposite",
+  "flow_1s",
+  "flow_5s",
+  "flow_30s",
+  "log_volume_30s",
+  "log_cancels_5s",
+  "log_vol_30s"
+ ],
+ "dropped": [],
+ "caliper": 0.75,
+ "caliper_sensitivity": 1.0,
+ "K": 5,
+ "intensity_cuts": [
+  5.106,
+  5.323,
+  5.509,
+  5.673,
+  5.826,
+  5.999,
+  6.213,
+  6.474,
+  6.876
+ ],
+ "split_days": {
+  "train": [
+   "2026-07-14",
+   "2026-09-07",
+   40
+  ],
+  "val": [
+   "2026-09-08",
+   "2026-09-24",
+   13
+  ],
+  "test": [
+   "2026-09-25",
+   "2026-10-13",
+   13
+  ]
+ }
+}

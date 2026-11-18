@@ -1,0 +1,126 @@
+period,from_state,to_state,n,probability,state_kind
+nearby,1 tick,1 tick,31721,0.9169509163438747,spread
+nearby,1 tick,2 ticks,2873,0.08304908365612534,spread
+nearby,2 ticks,1 tick,2863,0.5719137035557331,spread
+nearby,2 ticks,2 ticks,2143,0.4280862964442669,spread
+normal,1 tick,1 tick,4128434,0.9490201270882053,spread
+normal,1 tick,2 ticks,221752,0.05097504555530346,spread
+normal,1 tick,3+ ticks,21,4.827356491311792e-06,spread
+normal,2 ticks,1 tick,221710,0.22001478607330519,spread
+normal,2 ticks,2 ticks,785880,0.7798710932266883,spread
+normal,2 ticks,3+ ticks,115,0.0001141207000064503,spread
+normal,3+ ticks,1 tick,30,0.0010720794768252153,spread
+normal,3+ ticks,2 ticks,120,0.004288317907300861,spread
+normal,3+ ticks,3+ ticks,27833,0.9946396026158739,spread
+wmr,1 tick,1 tick,16415,0.9246324564862277,spread
+wmr,1 tick,2 ticks,1338,0.07536754351377233,spread
+wmr,2 ticks,1 tick,1348,0.6585246702491451,spread
+wmr,2 ticks,2 ticks,699,0.34147532975085493,spread
+nearby,balanced,balanced,6724,0.5055259003082475,imbalance
+nearby,balanced,buy-heavy,3302,0.24825201112698295,imbalance
+nearby,balanced,sell-heavy,3275,0.24622208856476957,imbalance
+nearby,buy-heavy,balanced,3294,0.2502849327558696,imbalance
+nearby,buy-heavy,buy-heavy,7802,0.5928120963452626,imbalance
+nearby,buy-heavy,sell-heavy,2065,0.15690297089886787,imbalance
+nearby,sell-heavy,balanced,3284,0.249961942456995,imbalance
+nearby,sell-heavy,buy-heavy,2038,0.1551225452884762,imbalance
+nearby,sell-heavy,sell-heavy,7816,0.5949155122545289,imbalance
+normal,balanced,balanced,1453898,0.7491288318901888,imbalance
+normal,balanced,buy-heavy,243176,0.1252977532287193,imbalance
+normal,balanced,sell-heavy,243711,0.12557341488109192,imbalance
+normal,buy-heavy,balanced,242919,0.14196018296178595,imbalance
+normal,buy-heavy,buy-heavy,1338796,0.7823831199227198,imbalance
+normal,buy-heavy,sell-heavy,129462,0.07565669711549419,imbalance
+normal,sell-heavy,balanced,243996,0.14071823997813065,imbalance
+normal,sell-heavy,buy-heavy,129210,0.07451845025153797,imbalance
+normal,sell-heavy,sell-heavy,1360727,0.7847633097703314,imbalance
+wmr,balanced,balanced,3422,0.5095294818344253,imbalance
+wmr,balanced,buy-heavy,1650,0.24568195354377606,imbalance
+wmr,balanced,sell-heavy,1644,0.24478856462179868,imbalance
+wmr,buy-heavy,balanced,1632,0.24840182648401826,imbalance
+wmr,buy-heavy,buy-heavy,4002,0.6091324200913242,imbalance
+wmr,buy-heavy,sell-heavy,936,0.14246575342465753,imbalance
+wmr,sell-heavy,balanced,1656,0.2542216763893153,imbalance
+wmr,sell-heavy,buy-heavy,931,0.14292293521645685,imbalance
+wmr,sell-heavy,sell-heavy,3927,0.6028553883942278,imbalance
+nearby,down,down,702,0.1407942238267148,mid_move
+nearby,down,flat,3093,0.6203369434416366,mid_move
+nearby,down,up,1191,0.2388688327316486,mid_move
+nearby,flat,down,3084,0.10378247408803339,mid_move
+nearby,flat,flat,23661,0.7962377170547853,mid_move
+nearby,flat,up,2971,0.09997980885718132,mid_move
+nearby,up,down,1192,0.24336463862801144,mid_move
+nearby,up,flat,2962,0.6047366271947734,mid_move
+nearby,up,up,744,0.1518987341772152,mid_move
+normal,down,down,30410,0.09616266384176325,mid_move
+normal,down,flat,230296,0.7282432368333676,mid_move
+normal,down,up,55529,0.17559409932486916,mid_move
+normal,flat,down,230511,0.048480120839084595,mid_move
+normal,flat,flat,4296075,0.9035327387142928,mid_move
+normal,flat,up,228167,0.04798714044662257,mid_move
+normal,up,down,55193,0.17526761869377308,mid_move
+normal,up,flat,228614,0.7259730650636537,mid_move
+normal,up,up,31100,0.0987593162425732,mid_move
+wmr,down,down,328,0.13706644379440033,mid_move
+wmr,down,flat,1388,0.5800250731299624,mid_move
+wmr,down,up,677,0.28290848307563726,mid_move
+wmr,flat,down,1412,0.09441027012570206,mid_move
+wmr,flat,flat,12133,0.8112463225461354,mid_move
+wmr,flat,up,1411,0.09434340732816261,mid_move
+wmr,up,down,660,0.2692778457772338,mid_move
+wmr,up,flat,1429,0.5830273357813137,mid_move
+wmr,up,up,362,0.14769481844145246,mid_move
+nearby,down,down,205,0.05711897464474784,bid_move
+nearby,down,flat,2638,0.7350236834772917,bid_move
+nearby,down,up,746,0.20785734187796043,bid_move
+nearby,flat,down,2691,0.08285608719748754,bid_move
+nearby,flat,flat,27247,0.8389371266703615,bid_move
+nearby,flat,up,2540,0.078206786132151,bid_move
+nearby,up,down,691,0.19558448910274553,bid_move
+nearby,up,flat,2585,0.7316727993206906,bid_move
+nearby,up,up,257,0.07274271157656383,bid_move
+normal,down,down,7471,0.03601158772010161,bid_move
+normal,down,flat,169412,0.8165968543485281,bid_move
+normal,down,up,30578,0.14739155793137024,bid_move
+normal,flat,down,167864,0.03376475261863695,bid_move
+normal,flat,flat,4635515,0.9324037151204598,bid_move
+normal,flat,up,168196,0.033831532260903234,bid_move
+normal,up,down,32037,0.15487360956013516,bid_move
+normal,up,flat,166816,0.8064236992347444,bid_move
+normal,up,up,8006,0.0387026912051204,bid_move
+wmr,down,down,83,0.04723961297666477,bid_move
+wmr,down,flat,1248,0.7103016505406944,bid_move
+wmr,down,up,426,0.24245873648264085,bid_move
+wmr,flat,down,1270,0.07812019437780648,bid_move
+wmr,flat,flat,13742,0.8452974103463123,bid_move
+wmr,flat,up,1245,0.07658239527588116,bid_move
+wmr,up,down,406,0.22732362821948487,bid_move
+wmr,up,flat,1266,0.7088465845464725,bid_move
+wmr,up,up,114,0.06382978723404255,bid_move
+nearby,down,down,224,0.06170798898071626,ask_move
+nearby,down,flat,2704,0.7449035812672177,ask_move
+nearby,down,up,702,0.1933884297520661,ask_move
+nearby,flat,down,2644,0.08147919876733437,ask_move
+nearby,flat,flat,27216,0.8387057010785824,ask_move
+nearby,flat,up,2590,0.0798151001540832,ask_move
+nearby,up,down,749,0.21278409090909092,ask_move
+nearby,up,flat,2539,0.7213068181818182,ask_move
+nearby,up,up,232,0.0659090909090909,ask_move
+normal,down,down,7547,0.036153466603432834,ask_move
+normal,down,flat,168719,0.8082386023406101,ask_move
+normal,down,up,32483,0.15560793105595716,ask_move
+normal,flat,down,170241,0.03425200628781375,ask_move
+normal,flat,flat,4633674,0.9322820647416257,ask_move
+normal,flat,up,166334,0.03346592897056063,ask_move
+normal,up,down,30884,0.1492723432432563,ask_move
+normal,up,flat,168007,0.8120320739305065,ask_move
+normal,up,up,8006,0.03869558282623721,ask_move
+wmr,down,down,90,0.05096262740656852,ask_move
+wmr,down,flat,1269,0.7185730464326161,ask_move
+wmr,down,up,407,0.2304643261608154,ask_move
+wmr,flat,down,1265,0.07786052809749493,ask_move
+wmr,flat,flat,13709,0.8437865452083462,ask_move
+wmr,flat,up,1273,0.07835292669415893,ask_move
+wmr,up,down,423,0.23670956911024063,ask_move
+wmr,up,flat,1257,0.7034135422495803,ask_move
+wmr,up,up,107,0.05987688864017907,ask_move

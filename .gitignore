@@ -1,0 +1,18 @@
+# Raw market data (licensed, large) and derived per-day caches (regenerable from code)
+data_6e/
+data_6e.zip
+data_sp500/
+outputs/**/cache/
+outputs/**/cache_clocks/
+outputs/**/daily_cache_v1/
+
+# Environment and tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude/
+*.log
+
+# Working drafts (PDF versions are kept)
+*.docx

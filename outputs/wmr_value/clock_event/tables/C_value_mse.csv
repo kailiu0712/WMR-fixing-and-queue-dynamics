@@ -1,0 +1,5 @@
+,test_mse_vs_Z
+P3 two-stage,0.04445621485111758
+P4 two-stage,0.04445477656296649
+D0 direct ridge,0.044470179786995086
+constant (val mean),0.044495982502561635

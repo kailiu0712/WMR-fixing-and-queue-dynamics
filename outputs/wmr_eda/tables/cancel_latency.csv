@@ -1,0 +1,4 @@
+period,cancel_within_0.01s,cancel_within_0.1s,cancel_within_0.5s,cancel_within_1s,cancel_within_5s,median_cancel_s,median_fill_s,n
+nearby,0.0968,0.2837,0.4544,0.5408,0.7032,0.2964,1.7783,65463.0
+normal,0.0934,0.2582,0.4028,0.4818,0.6688,0.4776,2.6965,5069084.0
+wmr,0.108,0.293,0.4479,0.5326,0.6734,0.2451,1.5179,36588.0
